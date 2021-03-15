@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/haktec/static/css/main.ed16cb84.chunk.css",
+    "main.js": "/haktec/static/js/main.8a6cbe1b.chunk.js",
+    "main.js.map": "/haktec/static/js/main.8a6cbe1b.chunk.js.map",
+    "runtime-main.js": "/haktec/static/js/runtime-main.a7bbfece.js",
+    "runtime-main.js.map": "/haktec/static/js/runtime-main.a7bbfece.js.map",
+    "static/js/2.6d295457.chunk.js": "/haktec/static/js/2.6d295457.chunk.js",
+    "static/js/2.6d295457.chunk.js.map": "/haktec/static/js/2.6d295457.chunk.js.map",
+    "static/js/3.9b9380f6.chunk.js": "/haktec/static/js/3.9b9380f6.chunk.js",
+    "static/js/3.9b9380f6.chunk.js.map": "/haktec/static/js/3.9b9380f6.chunk.js.map",
+    "index.html": "/haktec/index.html",
+    "static/css/main.ed16cb84.chunk.css.map": "/haktec/static/css/main.ed16cb84.chunk.css.map",
+    "static/js/2.6d295457.chunk.js.LICENSE.txt": "/haktec/static/js/2.6d295457.chunk.js.LICENSE.txt",
+    "static/media/envelope-regular.a200f037.svg": "/haktec/static/media/envelope-regular.a200f037.svg",
+    "static/media/search-solid.e216ad95.svg": "/haktec/static/media/search-solid.e216ad95.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a7bbfece.js",
+    "static/js/2.6d295457.chunk.js",
+    "static/css/main.ed16cb84.chunk.css",
+    "static/js/main.8a6cbe1b.chunk.js"
+  ]
+}
