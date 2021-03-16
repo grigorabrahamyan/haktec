@@ -1,0 +1,131 @@
+.popup__wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 15;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.popup__background {
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-one);
+    opacity: 0.9;
+}
+
+.popup__inputs {
+    position: absolute;
+    top: 5%;
+    bottom: 5%;
+    left: 25%;
+    right: 25%;
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs__header {
+    flex: 0 0 50px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.inputs__close {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.inputs__close-icon {
+    fill: var(--color-white);
+    height: 100%;
+}
+
+.inputs__inputs {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0;
+    flex: 1 1 auto;
+}
+
+.inputs__item-wrapper {
+    padding: 0 15px;
+    flex: 0 0 50%;
+    margin-bottom: 30px;
+}
+
+.inputs__item-wrapper.all {
+    padding: 0 15px;
+    flex: 0 0 100%;
+}
+
+.inputs__item {
+    width: 100%;
+}
+
+.inputs__item-title {
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+.inputs__item input {
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--color-one);
+}
+
+.inputs__item input:focus {
+    outline: none;
+}
+
+.inputs__item.noCorrect input {
+    border: 1px solid red;
+}
+
+.input__button-wrapper {
+    flex: 0 0 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.input__button-wrapper button {
+    height: 60%;
+    width: 20%;
+    background-color: var(--color-green);
+    color: var(--color-black);
+    outline: none;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid var(--color-black);
+    cursor: pointer;
+}
+
+.input__success {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: var(--color-green);
+}
